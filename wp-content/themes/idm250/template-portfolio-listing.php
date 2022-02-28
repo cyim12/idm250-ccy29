@@ -10,8 +10,8 @@ This is a custom template
         </a>
 
 <?php while (have_posts()) : the_post(); ?>
-<div class="" style="max-width: 300px; margin: 0 auto;">
-  <h1 class=""><?php the_title(); ?>
+<div class="portfolio-list-container">
+  <h1 class="wrapper-title"><?php the_title(); ?>
   </h1>
 
   <div class="">

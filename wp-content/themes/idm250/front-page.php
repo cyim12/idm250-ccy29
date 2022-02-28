@@ -8,7 +8,7 @@
         to become a UI/UX Designer.</h1>
         <br>
         <br>
-        <a href="http://localhost:8888/works/" class="button">VIEW WORKS</a>
+        <a href="http://christineyim.com/idm250-ccy29/works/" class="button">VIEW WORKS</a>
       </div>
 
 <?php get_footer();

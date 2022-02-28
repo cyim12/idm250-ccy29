@@ -13,18 +13,18 @@ This is a custom template
 
 
 
-<div class="page-wrapper">
-  <h1 class="wrapper-title"><?php the_title(); ?>
+<div class="idm-search-wrapper">
+  <h1 class="idm-search-title"><?php the_title(); ?>
   </h1>
 
-  <div class="search-container">
+  <div class="idm-search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Search work..." name="search">
       <button type="submit">Search</button>
     </form>
   </div>
 
-  <div class="work-container">
+  <div class="idm-search-content">
     <!-- start content -->
     <?php the_content(); ?>
     <!-- end content -->

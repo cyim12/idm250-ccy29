@@ -15,7 +15,7 @@
 </head>
 
 <header>
-    <a href="http://localhost:8888/" class="logo">
+    <a href="http://christineyim.com/idm250-ccy29/" class="logo">
             <img src="http://christineyim.com/idm250-ccy29/wp-content/uploads/2022/01/cy_logo.svg" alt="Christine Logo" class="logo">
         </a>
 </header>
