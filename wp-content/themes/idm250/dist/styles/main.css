@@ -223,6 +223,11 @@ p.email {
   color: #850009;
   font-size: 90px;
   margin: 0;
+  text-align: center;
+}
+
+.p-404 {
+  text-align: center;
 }
 
 /* PAGE */
@@ -406,7 +411,7 @@ h5 {
 
 p {
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Josefin_Sans', Arial, sans-serif;
   font-size: 20px;
 }
 
@@ -416,4 +421,9 @@ ul {
   margin-bottom: 5rem;
   text-align: left;
   text-decoration: none;
+}
+
+h2#hello-i-m-christine {
+  margin: 0;
+  width: auto;
 }
