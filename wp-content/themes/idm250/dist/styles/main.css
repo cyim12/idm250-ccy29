@@ -121,6 +121,13 @@
     font-family: 'Josefin_Sans', Arial, sans-serif;
     font-size: 14px;
   }
+
+  h6 {
+    font-family: 'Josefin_Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+  }
+
   
   p {
     text-align: left;
