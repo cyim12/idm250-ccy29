@@ -133,6 +133,7 @@
     text-align: left;
     font-family: 'Josefin_Sans', Arial, sans-serif;
     font-size: 20px;
+    font-weight: lighter;
   }
   
   ul {
@@ -372,11 +373,13 @@ button {
   text-decoration: underline;
 }
 
-h2 {
-  text-align: center;
-  width: 70%;
-  height: 70px;
-  margin: 0 15%;
+/*///// GENERAL/DEFAULT TEMPLATE /////*/
+.idm-default-content-container {
+  position: relative;
+  z-index: -1;
+  min-width: 90vw;
+  margin: 20rem 5vw 15rem;
+  min-height: 16vh;
 }
 
 /* PORTFOLIO LISTING */
