@@ -20,7 +20,7 @@
         </a>
 </header>
 
-<body>
+<body <?php body_class(); ?>>
 
     <?php
     //Registered this menu in functions.php

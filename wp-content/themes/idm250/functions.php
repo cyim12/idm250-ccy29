@@ -18,6 +18,9 @@ if (version_compare($GLOBALS['wp_version'], '5.4.2', '<')) {
 
 function include_styles()
 {
+
+    wp_enqueue_style('normalize', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
     //Example of including an external link
     // wp_enqueue_style('google-fonts', '//URL to the font//');
 

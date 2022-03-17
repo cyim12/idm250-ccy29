@@ -175,7 +175,10 @@
   font-weight: 400;
   font-size: 15px;
   color: #393E54;
+}
 
+#menu-main-menu li a:hover {
+  color: #850009;
 }
 
 header {
@@ -187,6 +190,7 @@ header {
 
 .logo {
   width: 95px;
+  z-index: 2;
 }
 
 
@@ -269,7 +273,6 @@ p.email {
 /* FRONT PAGE */
 .main-wrapper-front {
   position: relative;
-  z-index: -1;
   min-width: 80vw;
   margin: 20rem 10vw 15rem;
   min-height: 16vh;
@@ -299,7 +302,6 @@ p.email {
 /* 404 */
 .main-wrapper-404 {
   position: relative;
-  z-index: -1;
   min-width: 80vw;
   margin: 20rem 10vw 10rem;
   min-height: 16vh;
@@ -318,15 +320,17 @@ p.email {
 }
 
 /* PAGE */
-.page-wrapper {
+.idm-page-content-container {
   position: relative;
   z-index: -1;
-  min-width: 90vw;
-  margin: 20rem 5vw 15rem;
+  max-width: 70vw;
+  margin: 20rem 15vw 15rem;
   min-height: 16vh;
+  justify-content: center;
+  align-items: center;
 }
 
-.wrapper-title {
+.idm-page-title {
   font-size: 14px;
   color: #850009;
   position: absolute;
@@ -338,7 +342,7 @@ p.email {
 /* SEARCH */
 .logo2 {
   position: absolute;
-  z-index: 20;
+  z-index: 3;
   margin-top: 1rem;
   margin-left: -161px;
   width: 95px;
@@ -363,7 +367,6 @@ input {
   padding: 12px 20px 12px 40px;
   border-radius: 20px;
   border: none;
-  border-inline-color: none;
   width: 80%;
 }
 
@@ -433,6 +436,14 @@ button {
 
 
 /* SINGLE */
+.logo3 {
+  position: absolute;
+  z-index: 3;
+  margin-top: 1rem;
+  margin-left: -106px;
+  width: 95px;
+}
+
 .idm-single-wrapper {
   position: relative;
   z-index: -1;

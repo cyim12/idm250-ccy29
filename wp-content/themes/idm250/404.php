@@ -6,7 +6,7 @@
         <br>
         <p class="p-404">Sorry, the page you're looking for doesn't exist, isn't available, or was loading incorrectly!</p>
         <br>
-        <a href="http://localhost:8888/works/" class="button">VIEW WORKS</a>
+        <a href="http://christineyim.com/idm250-ccy29/works/" class="button">VIEW WORKS</a>
       </div>
 
 <?php get_footer ();?>
