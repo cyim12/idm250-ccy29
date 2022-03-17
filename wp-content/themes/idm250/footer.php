@@ -15,6 +15,7 @@
     <?php
     //Registered this menu in functions.php
     wp_nav_menu(['theme_location' => 'footer_menu']); ?>
+    
 
     <p class="email">email: christineyim1209@gmail.com | ccy29@drexel.edu</p>
 </div>

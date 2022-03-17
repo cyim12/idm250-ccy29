@@ -52,7 +52,7 @@ add_action('wp_enqueue_scripts', 'include_js_files');
 
 
 
-//Register custom navigation for website
+// Register custom navigation for website
 function register_theme_navigation()
 {
     register_nav_menus([
@@ -64,22 +64,18 @@ function register_theme_navigation()
 add_action('after_setup_theme', 'register_theme_navigation');
 
 
-
-
 //Render Custom Menu
-function idm_render_menu($menu_name)
-{
-    if (!$menu_name) {
-        return;
-    }
-    // return an array of menu locations that are registered
-    $locations = get_nav_menu_locations();
-    $menu = wp_get_nav_menu_object($locations[$menu_name]);
-    $menu_items = wp_get_nav_menu_items($menu->term_id, ['order' => 'DESC']);
-    return $menu_items;
-}
-
-
+// function idm_render_main_menu($menu_name)
+// {
+//     if (!$menu_name) {
+//         return;
+//     }
+//     // return an array of menu locations that are registered
+//     $locations = get_nav_menu_locations();
+//     $menu = wp_get_nav_menu_object($locations[$menu_name]);
+//     $menu_items = wp_get_nav_menu_items($menu->term_id, ['order' => 'DESC']);
+//     return $menu_items;
+// }
 
 
 /*
