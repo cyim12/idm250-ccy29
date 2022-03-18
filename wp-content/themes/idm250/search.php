@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Search Da Net */
+/* Template Name: Search Template */
 
  get_header(); ?>
 
