@@ -16,11 +16,15 @@
   <h1 class="idm-page-title"><?php the_title(); ?>
   </h1>
 
+  <?php get_template_part('components/search-form');?>
+
+
   <div class="idm-portfolio-listing-content">
 
       <!-- start content -->
       <?php the_content(); ?>
       <!-- end content -->
+
   </div>
 </div>
 

@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Search */
+/* Template Name: Search Results */
 ?>
 
 <?php get_header(); ?>
@@ -16,13 +16,6 @@
 <div class="idm-search-wrapper">
   <h1 class="idm-search-title"><?php the_title(); ?>
   </h1>
-
-  <div class="idm-search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search work..." name="search">
-      <button type="submit">Search</button>
-    </form>
-  </div>
 
   <div class="idm-search-content">
 

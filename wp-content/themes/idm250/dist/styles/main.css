@@ -200,6 +200,7 @@ header {
   background-color: #393E54;
   position: relative;
   width: 100%;
+
 }
 
 #menu-footer-menu {
@@ -274,7 +275,7 @@ p.email {
 .main-wrapper-front {
   position: relative;
   min-width: 80vw;
-  margin: 20rem 10vw 15rem;
+  margin: 20rem 10vw 5rem;
   min-height: 16vh;
 }
 
@@ -306,6 +307,12 @@ p.email {
   margin: 20rem 10vw 10rem;
   min-height: 16vh;
   text-align: center;
+}
+
+/* ABOUT */
+h2#hello-i-m-christine {
+  margin: 0;
+  width: auto;
 }
 
 .h1-404 {
@@ -348,67 +355,21 @@ p.email {
   width: 95px;
 }
 
-.idm-search-wrapper {
+.search-form {
+  display: inline;
+  width: 45vw;
+}
+
+.idm-search-container {
   position: absolute;
-  z-index: -1;
   min-width: 90vw;
-  margin: 20rem 5vw 15rem;
+  margin: 10rem 5vw 15rem;
   min-height: 16vh;
-}
-
-.search-container {
-  width: 40%;
-  margin: 0 30%;
-
-}
-
-input {
-  background-color: white;
-  padding: 12px 20px 12px 40px;
-  border-radius: 20px;
-  border: none;
-  width: 80%;
-}
-
-button {
-  background-color: #EEECEB;
-  border-color: #393E54;
-  border: 2px;
-  border-style: solid;
-  padding: 4px 14px;
-  color: #393E54;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 20px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.work-container {
-  display: flex;
-  margin-top: 6rem;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-.wp-block-group__inner-container {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 95%;
-  margin: 0 2.5%;
-  cursor: pointer;
-}
-
-.wp-block-group__inner-container:hover {
-  text-decoration: underline;
 }
 
 /*///// GENERAL/DEFAULT TEMPLATE /////*/
 .idm-default-content-container {
   position: relative;
-  z-index: -1;
   min-width: 90vw;
   margin: 20rem 5vw 15rem;
   min-height: 16vh;
@@ -417,7 +378,6 @@ button {
 /* PORTFOLIO LISTING */
 .portfolio-list-container {
   position: relative;
-  z-index: -1;
   min-width: 90vw;
   margin: 20rem 5vw 15rem;
   min-height: 16vh;
@@ -429,7 +389,7 @@ button {
   margin: 6rem 20% 0;
 }
 
-.wp-block-image {
+.wp-image-42, .wp-image-49, .wp-image-50, .wp-image-56 {
   width: 50%;
   margin: 1rem 25% 0;
 }
@@ -444,38 +404,84 @@ button {
   width: 95px;
 }
 
-.idm-single-wrapper {
+.idm-single-content-container {
   position: relative;
-  z-index: -1;
-  min-width: 100%;
-  margin: 12rem 0;
+  max-width: 95vw;
+  margin: 20rem 2.5vw 15rem;
+  min-height: 16vh;
+  justify-content: center;
+  align-items: center;
 }
 
-h2.idm-single-title {
-  color: #850009;
-  font-size: 16px;
-  font-family: 'Josefin_Sans', Arial, sans-serif;
+.idm-single-title {
+  color: #393E54;
+  font-family: 'Playfair_Display', serif;
+  font-size: 40px;
   text-align: center;
-  width: 10vw;
-  margin: 0 45vw;
+  position: absolute;
+  width: 100%;
+  margin-top: -6rem;
 }
 
+.wp-image-62 {
+  margin-bottom: 4rem;
+  vertical-align: middle;
+  min-width: 350px;
+  margin: none;
+}
+
+.wp-block-group__inner-container {
+  width: 80vw;
+  margin: 0 10vw;
+  line-height: 40px;
+  cursor:default ;
+  text-decoration: none;
+}
+
+.wp-block-group__inner-container:hover {
+  text-decoration: none;
+}
 
 .idm-single-content {
-  width: 80%;
-  margin: 0 10%;
+  width: 100%;
 }
 
 .wp-block-columns {
-  width: 40%;
-  margin: 2rem 30% 5rem;
+  width: 100%;
+  margin: 2rem 0 3rem;
 }
 
 .wp-block-groups {
   margin: 3rem 0;
 }
 
-h2#hello-i-m-christine {
+/* WORKS TEASER */
+.works {
+  width: 60vw;
+  margin: 0rem 20vw 5rem;
+  text-align: center;
+}
+
+.recent-work-teaser {
+  margin: 0rem 0 5rem;
+}
+
+.recent-work-teaser h2 a{
+  color: #850009;
+  font-family: 'Playfair_Display', serif;
   margin: 0;
-  width: auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.project-teaser {
+  margin-top: 3rem 0 2rem;
+}
+
+.project-teaser__tag {
+  width: 100px;
+}
+
+.teaser-description {
+  font-size: 18px;
 }
